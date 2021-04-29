@@ -1,0 +1,9 @@
+*.csv
+*.db
+*.txt
+*.xlsx
+*.lmdb
+*.jsonline
+*.pkl
+*.mdb
+

@@ -1,0 +1,10 @@
+TASK8:
+  name: RetrievalFlickr30k
+  task_id: 8
+  dataroot: data/flickr30k
+  features_h5path1: data/flickr30k/flickr30k_resnext152_faster_rcnn_genome.lmdb
+  features_h5path2: ''
+  trans_annotations_jsonpath: data/flickr30k/sample_set.jsonline
+  max_seq_length: 30
+  max_region_num: 101
+  batch_size: 1 # 128
